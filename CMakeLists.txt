@@ -3,6 +3,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 project(http VERSION 1.0)
 
+add_subdirectory(libs)
 add_library(http src/httpclient.cpp)
 
 # Define headers for this library. PUBLIC headers are used for
